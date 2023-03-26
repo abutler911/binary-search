@@ -22,7 +22,7 @@ const valueToFind = 23;
 
 const result = binarySearch(arr, valueToFind);
 if (result === -1) {
-  console.log("Value not found in array.");
+  console.log("Value not found in array. Try again");
 } else {
   console.log(`Value found at index ${result}.`);
 }
